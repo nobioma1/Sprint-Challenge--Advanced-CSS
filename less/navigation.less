@@ -1,1 +1,24 @@
 // Navigation code here
+.top-bar {
+  width: 100%;
+  padding: 30px;
+  background-color: @nav-bg;
+  border-bottom: 1px solid @nav-border;
+  .flex(column, center, center);
+
+  h1 {
+    font-size: @extra-lg-font-size;
+    padding-bottom: 15px;
+    color: @header-font-color;
+  }
+
+  nav {
+    width: 100%;
+    .flex(row, center, center);
+
+    a {
+      .link-style(@main-font-size, @nav-font);
+      padding: 0 2%;
+    }
+  }
+}

@@ -1,1 +1,13 @@
 // Mixins Here
+.flex(@direction: row, @justify-content, @align-items) {
+  display: flex;
+  flex-direction: @direction;
+  justify-content: @justify-content;
+  align-items: @align-items;
+}
+
+.link-style(@font-size, @color){
+  font-size: @font-size;
+  color: @color;
+  text-decoration: none;
+}
