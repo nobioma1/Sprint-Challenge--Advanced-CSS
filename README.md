@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+  - Difference Between Adaptive and Responsoive Design:
+
+    - An Adaptive Website, different pages are designed and depending on a particular width of the viewing screen, the suitable page is rendered.
+    - A Responsive website, a page is designed and it changes in a fluid manner depending on the change of the width of the viewing screen.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    - A mobile first design approach is designed in a way the base design is made to suit view on mobile devices (smaller screen) then it is later made responsive to suit larger screen using media queries
+    - A desktop first design approach, its base styles or design is made to suit larger screen then later made responsive to suit smaller screens using media queries.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+  - "font-size 62.5%" calculates 62.5% of the base or default set font-size of the browser usually. It makes our website or html accessible to the user in a case where the user alters the font-size on his browser.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    - Preprocessing is a program that lets you write generate CSS in a unique syntax, it ensures the DO NOT REPEAT YOURSELF paradigm in development, writing cleaner and readable codes, and provides functions that helps the development process to be efficent and effortless.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+  - Favourite concept in preprocessing is NESTING and MIXINS: it enhances code readability, and modularity.
+  - Most troubling concept: Using inbuilt function to achieve desired result.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
