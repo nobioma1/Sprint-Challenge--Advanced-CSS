@@ -118,4 +118,32 @@
       }
     }
   }
+
+  .magazine-sub-form {
+    .flex(column, center, center);
+    padding-bottom: 20px;
+
+    button {
+      .button(@btn-bg-color, 5px);
+      color: white;
+      padding: 10px;
+    }
+
+
+    input {
+      border: 1px solid @btn-bg-color;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 20px;
+      width: 50%;
+
+      @media @phone {
+        width: 80%;
+      }
+    }
+
+    @media @phone {
+      padding: 20px;
+    }
+  }
 } // home

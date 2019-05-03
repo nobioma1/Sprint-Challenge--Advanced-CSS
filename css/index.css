@@ -321,3 +321,33 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.home .magazine-sub-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.home .magazine-sub-form button {
+  background-color: #22283A;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+.home .magazine-sub-form input {
+  border: 1px solid #22283A;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  width: 50%;
+}
+@media (max-width: 550px) {
+  .home .magazine-sub-form input {
+    width: 80%;
+  }
+}
+@media (max-width: 550px) {
+  .home .magazine-sub-form {
+    padding: 20px;
+  }
+}
