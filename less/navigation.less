@@ -6,10 +6,18 @@
   border-bottom: 1px solid @nav-border;
   .flex(column, center, center);
 
+  @media @phone {
+    padding: 15px;
+  }
+
   h1 {
     font-size: @extra-lg-font-size;
     padding-bottom: 15px;
     color: @header-font-color;
+
+    @media @phone{
+      font-size: 3rem;
+    }
   }
 
   nav {
