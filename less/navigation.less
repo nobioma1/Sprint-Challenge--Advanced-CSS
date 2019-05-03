@@ -14,6 +14,16 @@
     font-size: @extra-lg-font-size;
     padding-bottom: 15px;
     color: @header-font-color;
+    animation-name: scale;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+    @keyframes scale {
+      50% {
+        transform: scale(0.7);
+      }
+    }
 
     @media @phone{
       font-size: 3rem;
